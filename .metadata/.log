@@ -1,0 +1,22 @@
+!SESSION 2022-06-14 07:42:48.232 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-06-14 07:43:42.116
+!MESSAGE Adding Booster and Autodiscovery builders to project: SWIP_Embedded_prj
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-06-14 07:43:42.210
+!MESSAGE Adding Booster and Autodiscovery builders to project: SWIP_Embedded_prj
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-14 07:43:53.136
+!MESSAGE Indexed 'SWIP_Embedded_prj' (164 sources, 632 headers) in 10.3 sec: 145,818 declarations; 193,744 references; 6 unresolved inclusions; 5,275 syntax errors; 5,956 unresolved names (1.7%)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-06-14 07:44:40.037
+!MESSAGE Project was boosted in 1170 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-06-14 07:44:40.084
+!MESSAGE Include paths were discovered in 53 milliseconds.
