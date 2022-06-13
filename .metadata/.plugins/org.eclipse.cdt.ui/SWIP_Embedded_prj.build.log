@@ -1,0 +1,1076 @@
+07:44:40 **** Build of configuration Debug for project SWIP_Embedded_prj ****
+make --output-sync -j20 all 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src"  "../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src"  "../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src"  "../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src"  "../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src"  "../Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src"  "../Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src"  "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src"  "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src"  "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src"  "../Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src"  "../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src"  "../Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src"  "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.c
+ 
+Building file: ../Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.src"  "../Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.c"  -cs --dep-file="Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src"  "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c
+ 
+Building file: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src"  "../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.c"  -cs --dep-file="Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src"  "../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.c
+ 
+Building file: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src"  "../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.c"  -cs --dep-file="Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src"  "../Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.c
+ 
+Building file: ../Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.src"  "../Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.c"  -cs --dep-file="Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.c
+ 
+Building file: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src"  "../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.c"  -cs --dep-file="Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.c
+ 
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src"  "../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c"  -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.c
+ 
+Building file: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src"  "../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.c"  -cs --dep-file="Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.c
+ 
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src"  "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c"  -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src"  "../Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.c
+ 
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src"  "../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c"  -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.c
+ 
+Building file: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src"  "../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c"  -cs --dep-file="Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c
+ 
+Building file: ../Configurations/Debug/sync_on_halt.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Configurations/Debug/sync_on_halt.src"  "../Configurations/Debug/sync_on_halt.c"  -cs --dep-file="Configurations/Debug/sync_on_halt.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Configurations/Debug/sync_on_halt.c
+ 
+Building file: ../Cpu0_Main.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Cpu0_Main.src"  "../Cpu0_Main.c"  -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Cpu0_Main.c
+ 
+Building file: ../ASCLIN_Shell_UART.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "ASCLIN_Shell_UART.src"  "../ASCLIN_Shell_UART.c"  -cs --dep-file="ASCLIN_Shell_UART.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../ASCLIN_Shell_UART.c
+ 
+Building file: ../Cpu1_Main.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Cpu1_Main.src"  "../Cpu1_Main.c"  -cs --dep-file="Cpu1_Main.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Cpu1_Main.c
+ 
+Building file: ../Cpu2_Main.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Cpu2_Main.src"  "../Cpu2_Main.c"  -cs --dep-file="Cpu2_Main.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Cpu2_Main.c
+ 
+Building file: ../interrupt.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "interrupt.src"  "../interrupt.c"  -cs --dep-file="interrupt.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../interrupt.c
+ 
+Building file: ../button.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "button.src"  "../button.c"  -cs --dep-file="button.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../button.c
+ 
+Building file: ../adc.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "adc.src"  "../adc.c"  -cs --dep-file="adc.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../adc.c
+ 
+Building file: ../timer.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "timer.src"  "../timer.c"  -cs --dep-file="timer.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../timer.c
+ 
+Building file: ../led.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "led.src"  "../led.c"  -cs --dep-file="led.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../led.c
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src
+ 
+Building file: ../light_sensor.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "light_sensor.src"  "../light_sensor.c"  -cs --dep-file="light_sensor.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../light_sensor.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src
+ 
+Building file: ../pwm.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/SWIP_Embedded_prj/SWIP_Embedded_prj/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "pwm.src"  "../pwm.c"  -cs --dep-file="pwm.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../pwm.c
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src" --list-format=L1 --optimize=gs
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.o" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.o" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o" "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.o" "Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src" --list-format=L1 --optimize=gs
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o" "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o" "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o" "Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o" "Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o" "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o" "Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o" "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o" "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o" "Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src
+Invoking: TASKING Assembler
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o" "Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.o" "Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.o" "Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src
+ 
+Building file: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.o" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src
+ 
+Building file: Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.o" "Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.o" "Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.src
+ 
+Building file: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.o" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src
+ 
+Building file: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.o" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src
+ 
+Building file: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.o" "Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src
+ 
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src
+ 
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o" "Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src" --list-format=L1 --optimize=gs
+Finished building: Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Configurations/Debug/sync_on_halt.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Configurations/Debug/sync_on_halt.o" "Configurations/Debug/sync_on_halt.src" --list-format=L1 --optimize=gs
+Finished building: Configurations/Debug/sync_on_halt.src
+ 
+Building file: Cpu0_Main.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src" --list-format=L1 --optimize=gs
+Finished building: Cpu0_Main.src
+ 
+Building file: Cpu1_Main.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu1_Main.o" "Cpu1_Main.src" --list-format=L1 --optimize=gs
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Finished building: Cpu1_Main.src
+ 
+Building file: ASCLIN_Shell_UART.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "ASCLIN_Shell_UART.o" "ASCLIN_Shell_UART.src" --list-format=L1 --optimize=gs
+Finished building: ASCLIN_Shell_UART.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: Cpu2_Main.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu2_Main.o" "Cpu2_Main.src" --list-format=L1 --optimize=gs
+Finished building: Cpu2_Main.src
+ 
+Building file: interrupt.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "interrupt.o" "interrupt.src" --list-format=L1 --optimize=gs
+Finished building: interrupt.src
+ 
+Building file: button.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "button.o" "button.src" --list-format=L1 --optimize=gs
+Finished building: button.src
+ 
+Building file: adc.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "adc.o" "adc.src" --list-format=L1 --optimize=gs
+Finished building: adc.src
+ 
+Building file: led.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "led.o" "led.src" --list-format=L1 --optimize=gs
+Finished building: led.src
+ 
+Building file: light_sensor.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "light_sensor.o" "light_sensor.src" --list-format=L1 --optimize=gs
+Finished building: light_sensor.src
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Building file: timer.src
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "timer.o" "timer.src" --list-format=L1 --optimize=gs
+Finished building: timer.src
+ 
+Building file: pwm.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
+Invoking: TASKING Assembler
+astc -Og -Os --no-warnings= --error-limit=42 -o  "pwm.o" "pwm.src" --list-format=L1 --optimize=gs
+Finished building: pwm.src
+ 
+Building target: SWIP_Embedded_prj.elf
+Invoking: TASKING Linker
+cctc -lrt -lfp_fpu -lcs_fpu  -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="SWIP_Embedded_prj.map" -Wl-mc -Wl-mf -Wl-mi -Wl-mk -Wl-ml -Wl-mm -Wl-md -Wl-mr -Wl-mu --no-warnings= -Wl--error-limit=42 --exceptions --strict --anachronisms --force-c++ -Ctc27xd   -o"SWIP_Embedded_prj.elf" -Wl-o"SWIP_Embedded_prj.hex:IHEX" --lsl-core=vtc  --lsl-file=../Lcf_Tasking_Tricore_Tc.lsl  ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.o ./Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.o  ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.o ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.o ./Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.o  ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.o ./Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.o  ./Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.o  ./Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.o  ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.o ./Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.o  ./Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.o  ./Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.o  ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.o ./Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.o  ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.o ./Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.o  ./Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.o  ./Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.o  ./Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.o ./Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.o  ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.o ./Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.o  ./Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.o ./Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o  ./Configurations/Debug/sync_on_halt.o  ./ASCLIN_Shell_UART.o ./Cpu0_Main.o ./Cpu1_Main.o ./Cpu2_Main.o ./adc.o ./button.o ./interrupt.o ./led.o ./light_sensor.o ./pwm.o ./timer.o 
+Finished building target: SWIP_Embedded_prj.elf
+ 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Invoking: Print Size
+TASKING VX-toolset for AURIX Development Studio (non-commercial): ELF size v1.1r8 Build 21111057
+elfsize  "SWIP_Embedded_prj.elf"
+Total sizes:
+ROM: 0x2847 (10311) = code: 0x269e (9886) + romdata: 0x1a9 (425)
+RAM: 0x9569 (38249) = data + bss
+Finished building: SWIP_Embedded_prj.siz
+ 
+rm Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src Cpu2_Main.src Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.src Cpu0_Main.src Configurations/Debug/sync_on_halt.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src Cpu1_Main.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Pos.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Shell.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src ASCLIN_Shell_UART.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src Libraries/iLLD/TC27D/Tricore/Asclin/Asc/IfxAsclin_Asc.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src Libraries/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src button.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src Libraries/iLLD/TC27D/Tricore/Stm/Std/IfxStm.src Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src Libraries/Service/CpuGeneric/StdIf/IfxStdIf_Timer.src Libraries/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.src adc.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src led.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src Libraries/iLLD/TC27D/Tricore/Asclin/Std/IfxAsclin.src Libraries/Service/CpuGeneric/SysSe/Comm/Ifx_Console.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src pwm.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src timer.src interrupt.src Libraries/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_CircularBuffer.asm.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src light_sensor.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src
+
+07:44:45 Build Finished. 0 errors, 0 warnings. (took 5s.461ms)
+
