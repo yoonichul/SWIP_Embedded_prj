@@ -262,6 +262,9 @@ void runShellInterface(void)
 //    IfxStdIf_DPipe_print(&g_ascStandardInterface,"TESTs %d"ENDLINE,10);
 
 }
-
+void Print_UART_INT(unsigned int data)
+{
+    IfxStdIf_DPipe_print(&g_ascStandardInterface,"value is %d"ENDLINE,data);
+}
 
 

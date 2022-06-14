@@ -38,5 +38,7 @@
 /*********************************************************************************************************************/
 void initShellInterface(void);
 void runShellInterface(void);
+void Print_UART_INT(unsigned int data);
+
 
 #endif /* ASCLIN_SHELL_UART_H_ */

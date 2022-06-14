@@ -31,13 +31,20 @@
 #define FXCLK_SEL_BIT_LSB_IDX       0
 #define EX_FXCLK_BIT_LSB_IDX        22
 #define SEL7_BIT_LSB_IDX            14
+#define SEL8_BIT_LSB_IDX            16
+
 // TOM0_TGC0_GLB_CTRL register
 #define UPEN_CTRL1_BIT_LSB_IDX      18
+#define UPEN_CTRL2_BIT_LSB_IDX      20
 #define HOST_TRIG_BIT_LSB_IDX       0
 // TOM0_TGC0_ENDIS_CTRL register
 #define ENDIS_CTRL1_BIT_LSB_IDX     2
+#define ENDIS_CTRL2_BIT_LSB_IDX     4
+
 // TOM0_TGC0_OUTEN_CTRL register
 #define OUTEN_CTRL1_BIT_LSB_IDX     2
+#define OUTEN_CTRL2_BIT_LSB_IDX     4
+
 // TOM0_CH1_CTRL register
 #define SL_BIT_LSB_IDX              11
 #define CLK_SRC_SR_BIT_LSB_IDX      12
@@ -69,17 +76,31 @@ void initGTM(void)
        GTM_CMU_CLK_EN.U |= 0x2 << EX_FXCLK_BIT_LSB_IDX;
 
        GTM_TOM0_TGC0_GLB_CTRL.U |= 0x2 << UPEN_CTRL1_BIT_LSB_IDX; // TOM channel 1 update enable
+       GTM_TOM0_TGC0_GLB_CTRL.U |= 0x2 << UPEN_CTRL2_BIT_LSB_IDX; // TOM channel 2 update enable
+
        GTM_TOM0_TGC0_ENDIS_CTRL.U |= 0x2 << ENDIS_CTRL1_BIT_LSB_IDX;
+       GTM_TOM0_TGC0_ENDIS_CTRL.U |= 0x2 << ENDIS_CTRL2_BIT_LSB_IDX;
+
        GTM_TOM0_TGC0_OUTEN_CTRL.U |= 0x2 << OUTEN_CTRL1_BIT_LSB_IDX;
+       GTM_TOM0_TGC0_OUTEN_CTRL.U |= 0x2 << OUTEN_CTRL2_BIT_LSB_IDX;
 
        GTM_TOM0_CH1_CTRL.U |= 0x1 << SL_BIT_LSB_IDX;
        GTM_TOM0_CH1_CTRL.U |= 0x1 << CLK_SRC_SR_BIT_LSB_IDX;
        GTM_TOM0_CH1_CTRL.U &= ~(0x1 << OSB_BIT_LSB_IDX);
        GTM_TOM0_CH1_CTRL.U &= ~(0x1 << TRIG_OUT_BIT_LSB_IDX);
 
+       GTM_TOM0_CH2_CTRL.U |= 0x1 << SL_BIT_LSB_IDX;
+       GTM_TOM0_CH2_CTRL.U |= 0x1 << CLK_SRC_SR_BIT_LSB_IDX;
+       GTM_TOM0_CH2_CTRL.U &= ~(0x1 << OSB_BIT_LSB_IDX);
+       GTM_TOM0_CH2_CTRL.U &= ~(0x1 << TRIG_OUT_BIT_LSB_IDX);
+
        GTM_TOM0_CH1_SR0.U = 12500 - 1;                           // PWM freq. = 6250kHz  / 12500 = 500Hz
        GTM_TOM0_CH1_SR1.U = 1250 - 1;
+       GTM_TOM0_CH2_SR0.U = 12500 - 1;                           // PWM freq. = 6250kHz  / 12500 = 500Hz
+       GTM_TOM0_CH2_SR1.U = 1250 - 1;
        GTM_TOUTSEL6.U &= ~(0x3 << SEL7_BIT_LSB_IDX);
+       GTM_TOUTSEL6.U &= ~(0x3 << SEL8_BIT_LSB_IDX);
+
 }
 
 
@@ -90,7 +111,14 @@ void PWM_trigger(void)
 }
 
 
-void change_duty_ratio(unsigned int duty)
+void RED_change_duty_ratio(unsigned int duty)
 {
     GTM_TOM0_CH1_SR1.U = duty - 1;
 }
+
+void BLUE_change_duty_ratio(unsigned int duty)
+{
+    GTM_TOM0_CH2_SR1.U = duty - 1;
+
+}
+

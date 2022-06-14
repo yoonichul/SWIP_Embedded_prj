@@ -8,8 +8,7 @@
 #ifndef INTERRUPT_H_
 #define INTERRUPT_H_
 
-#include "interrupt.h"
-void initERU(void);
+void initERU01(void);
 void initERU02(void);
-
+void initERU03(void);
 #endif /* INTERRUPT_H_ */

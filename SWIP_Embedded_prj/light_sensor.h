@@ -9,7 +9,7 @@
 #define LIGHT_SENSOR_H_
 
 
-void VADC_light_sensor_init(void);
+void init_VADC_light_sensor(void);
 void VADC_light_sensor_startConversion(void);
 unsigned int VADC_light_sensor_readResult(void);
 

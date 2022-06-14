@@ -27,7 +27,8 @@
 #include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
-
+#include "main_controller.h"
+//extern unsigned char scenario_button;
 extern IfxCpu_syncEvent g_cpuSyncEvent;
 
 int core1_main(void)
@@ -42,9 +43,13 @@ int core1_main(void)
     /* Wait for CPU sync event */
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
-    
     while(1)
     {
+//        if((P02_IN.U & (0x1<<P0_BIT_LSB_IDX)) == 0)
+//        {
+//            scenario_button += 1;
+//            if( !scenario_button && scenario_button % 4 == 0 )scenario_button = 0;
+//        }
     }
     return (1);
 }

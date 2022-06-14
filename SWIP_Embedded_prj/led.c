@@ -21,7 +21,7 @@
 #define P3_BIT_LSB_IDX 3
 #define P5_BIT_LSB_IDX 5
 #define P7_BIT_LSB_IDX 7
-void initLED(void) {
+void initRGBLED(void) {
 //    P10_IOCR0.U &= ~(0x1F << PC1_BIT_LSB_IDX);
 //    P10_IOCR0.U &= ~(0x1F << PC2_BIT_LSB_IDX);
     P10_IOCR0.U &= ~(0x1F << PC3_BIT_LSB_IDX);
@@ -35,13 +35,13 @@ void initLED(void) {
     P02_IOCR4.U |= 0x10 << PC7_BIT_LSB_IDX;
 }
 
-void initREDLED_PWM(void)
+void initLED_PWM(void)
 {
     P10_IOCR0.U &= ~(0x1F << PC1_BIT_LSB_IDX);
     P10_IOCR0.U &= ~(0x1F << PC2_BIT_LSB_IDX);
 
     P10_IOCR0.U |= 0x11 << PC1_BIT_LSB_IDX;
-    P10_IOCR0.U |= 0x10 << PC2_BIT_LSB_IDX;
+    P10_IOCR0.U |= 0x11 << PC2_BIT_LSB_IDX;
 }
 
 

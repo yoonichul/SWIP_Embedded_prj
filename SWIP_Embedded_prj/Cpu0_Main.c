@@ -24,94 +24,78 @@
  * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
  * IN THE SOFTWARE.
  *********************************************************************************************************************/
-#include "Ifx_Types.h"
-#include "IfxCpu.h"
-#include "IfxScuWdt.h"
-//#include "adc.h"
-#include "button.h"
-#include "interrupt.h"
-#include "led.h"
-#include "timer.h"
+//#include "Ifx_Types.h"
+//#include "IfxCpu.h"
+//#include "IfxScuWdt.h"
+////#include "adc.h"
+//#include "button.h"
+//#include "interrupt.h"
+//#include "led.h"
+//#include "timer.h"
 //#include "ASCLIN_Shell_UART.h"
-#include "light_sensor.h"
-#include "pwm.h"
-#define BUTTON_RELEASED 1
-#define BUTTON_PUSHED 0
+//#include "light_sensor.h"
+//#include "pwm.h"
+//#include "register_bit_index.h"
+//#include "ultrasonic.h"
+#include "main_controller.h"
 
-#define PC0_BIT_LSB_IDX 3
-#define PC1_BIT_LSB_IDX 11
-#define PC2_BIT_LSB_IDX 19
-#define PC3_BIT_LSB_IDX 27
-#define PC5_BIT_LSB_IDX 11
-#define PC7_BIT_LSB_IDX 27
-#define P0_BIT_LSB_IDX 0
-#define P1_BIT_LSB_IDX 1
-#define P2_BIT_LSB_IDX 2
-#define P3_BIT_LSB_IDX 3
-
-#define P5_BIT_LSB_IDX 5
-#define P7_BIT_LSB_IDX 7
-
-unsigned int button_status = BUTTON_RELEASED; // 1 :  released , 0: pushed
-
+//static unsigned int adc_result = 0;
+//unsigned int button_status = BUTTON_RELEASED; // 1 :  released , 0: pushed
+extern unsigned int left_us_range;
+extern unsigned int right_us_range;
+extern unsigned char scenario_button;
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
-//__interrupt(0x0A) __vector_table(0)
-// void ERU0_ISR(void)
-//{
-//    RGB_rotate();
-//}
 __interrupt(0x0B) __vector_table(0)
  void CCU60_T12_ISR(void)
 {
-     unsigned int adc_result = 0;
-     VADC_light_sensor_startConversion();
-//     VADC_startConversion();
-     adc_result = VADC_light_sensor_readResult();
-     if (adc_result >= 3096) {
-//         P02_OUT.U |= 0x1 << P7_BIT_LSB_IDX;    // LED RED D9 (RGB)
-//         P10_OUT.U &= ~(0x1 << P5_BIT_LSB_IDX); // LED GREEN D10 (RGB)
-//         P10_OUT.U &= ~(0x1 << P3_BIT_LSB_IDX); // LED BLUE D11 (RGB)
-         change_duty_ratio(1250);
-     } else if (adc_result >= 2048) {
-//         P02_OUT.U &= ~(0x1 << P7_BIT_LSB_IDX); // LED RED D9 (RGB)
-//         P10_OUT.U |= (0x1 << P5_BIT_LSB_IDX);  // LED GREEN D10 (RGB)
-//         P10_OUT.U &= ~(0x1 << P3_BIT_LSB_IDX); // LED BLUE D11 (RGB)
-         change_duty_ratio(6150);
-     } else if (adc_result >= 1024) {
-//         P02_OUT.U &= ~(0x1 << P7_BIT_LSB_IDX); // LED RED D9 (RGB)
-//         P10_OUT.U &= ~(0x1 << P5_BIT_LSB_IDX); // LED GREEN D10 (RGB)
-//         P10_OUT.U |= (0x1 << P3_BIT_LSB_IDX);  // LED BLUE D11 (RGB)
-         change_duty_ratio(12500);
-     } else {
-//         P02_OUT.U |= 0x1 << P7_BIT_LSB_IDX;   // LED RED D9 (RGB)
-//         P10_OUT.U |= (0x1 << P5_BIT_LSB_IDX); // LED GREEN D10 (RGB)
-//         P10_OUT.U |= (0x1 << P3_BIT_LSB_IDX); // LED BLUE D11 (RGB)
-     }
-//     RGB_rotate();
-
+    // end of 10us Trig
+    // GPIO P02.6 --> LOW
+    P02_OUT.U &= ~(0x1 << P6_BIT_LSB_IDX);
+    P02_OUT.U &= ~(0x1 << P5_BIT_LSB_IDX);
 }
-__interrupt(0x0C) __vector_table(0)
+__interrupt(0x0A) __vector_table(0)
  void ERU1_ISR(void)
 {
-    if( (P02_IN.U & (0x1<<P0_BIT_LSB_IDX)) == 0)
+    if((P00_IN.U &(0x1 << P4_BIT_LSB_IDX)) != 0)
     {
-        button_status = BUTTON_PUSHED;
+        CCU61_start();
     }
     else
     {
-        button_status = BUTTON_RELEASED;
+        CCU61_T12_stop();
+        left_us_range = calc_left_US_distance();
+        set_left_range_valid_flag();
+        CCU61_T12_reset();
     }
-    change_freq(button_status);
 
+}
+__interrupt(0x09) __vector_table(0)
+void ERU2_ISR(void)
+{
+    if((P11_IN.U & (0x1 << 10)) !=0)
+    {
+        CCU61_start();
+    }
+    else
+    {
+        CCU61_T12_stop();
+        right_us_range = calc_right_US_distance();
+        set_right_range_valid_flag();
+        CCU61_T12_reset();
+    }
+}
+
+__interrupt(0x07) __vector_table(0)
+void ERU3_ISR(void)
+{
+    scenario_button+=1; // LED GREEN D10 (RGB)
+    if(!scenario_button && scenario_button % 4 == 0)
+    {
+         scenario_button = 0;
+     }
 }
 
 int core0_main(void) {
-    //    unsigned char prev_prev_value = 1;
-    //    unsigned char prev_value = 1;
-    //    unsigned char cur_value = 1;
-
-    //    unsigned char edge_detector_prev;
-    //    unsigned char edge_detector_cur;
 
     IfxCpu_enableInterrupts();
 
@@ -124,23 +108,44 @@ int core0_main(void) {
     /* Wait for CPU sync event */
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
-        initLED();
-    //    initButton();
-//    initVADC();
-    initCCU60();
-    //    initERU();
-    //    initERU02();
-//    initShellInterface();
-//    initREDLED_PWM();
-    initGTM();
-    initREDLED_PWM();
 
-    P10_OUT.U = 0x1 << P1_BIT_LSB_IDX;
-//    P10_OUT.U = 0x1 << P2_BIT_LSB_IDX;
-    VADC_light_sensor_init();
-    PWM_trigger();
+
+    controller_init();
     while (1) {
+        doWork();
+//        if(left_us_range == 100)  P02_OUT.U |= 0x1 << P7_BIT_LSB_IDX;
+//        if( (P02_IN.U & (0x1<<P0_BIT_LSB_IDX)) == 0)
+//        {
+//            P02_OUT.U |= 0x1 << P7_BIT_LSB_IDX;    // LED RED D9 (RGB)
+//            P10_OUT.U |= (0x1 << P5_BIT_LSB_IDX); // LED GREEN D10 (RGB)
+//            P10_OUT.U |= (0x1 << P3_BIT_LSB_IDX); // LED BLUE D11 (RGB)
+//        }
+//        for(unsigned int i = 0; i < 10000000; i++ );
+//        right_UltraSonic_trigger();
+//        while(get_right_range_valid_flag() == 0);
+//        if(right_us_range > 10 )
+//        {
+//            P02_OUT.U |= 0x1 << P7_BIT_LSB_IDX;
+//        }
+//        else
+//        {
+//            P02_OUT.U &= ~(0x1 << P7_BIT_LSB_IDX);
+//
+//        }
+//        left_UltraSonic_trigger();
+//        while(get_left_range_valid_flag() == 0);
+//        if(left_us_range > 10 )
+//        {
+//            P10_OUT.U |= (0x1 << P5_BIT_LSB_IDX); // LED GREEN D10 (RGB)
+//        }
+//        else
+//        {
+//            P10_OUT.U &= ~(0x1 << P5_BIT_LSB_IDX);
+//
+//        }
+
 //        runShellInterface();
+//        Print_UART_INT(right_us_range);
     }
     return (1);
 }

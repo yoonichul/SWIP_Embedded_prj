@@ -32,12 +32,12 @@
 #define TOS_BIT_LSB_IDX 11
 #define SRE_BIT_LSB_IDX 10
 
-void initERU(void) {
+void initERU01(void) {
     SCU_EICR1.U &= ~(0x7 << EXIS0_BIT_LSB_IDX);
-    SCU_EICR1.U |= (0x1 << EXIS0_BIT_LSB_IDX);
+    SCU_EICR1.U |= (0x2 << EXIS0_BIT_LSB_IDX);
 
     SCU_EICR1.U |= 0x1 << REN0_BIT_LSB_IDX;
-    //    SCU_EICR1.U |= 0x1 << FEN0_BIT_LSB_IDX;
+    SCU_EICR1.U |= 0x1 << FEN0_BIT_LSB_IDX;
     SCU_EICR1.U |= 0x1 << EIEN0_BIT_LSB_IDX;
 
     SCU_EICR1.U &= ~(0x7 << INP0_BIT_LSB_IDX);
@@ -48,28 +48,54 @@ void initERU(void) {
     SRC_SCU_SCU_ERU0.U &= ~(0xFF << SRPN_BIT_LSB_IDX);
     SRC_SCU_SCU_ERU0.U |= (0x0A << SRPN_BIT_LSB_IDX);
 
-    SRC_SCU_SCU_ERU0.U &= ~(0x03 << TOS_BIT_LSB_IDX);
+    SRC_SCU_SCU_ERU0.U &= ~(0x3 << TOS_BIT_LSB_IDX);
     SRC_SCU_SCU_ERU0.U |= 0x1 << SRE_BIT_LSB_IDX;
+
 }
 
-void initERU02(void) {
+void initERU02(void) //LSY Echo P11.10
+{
+    SCU_EICR3.U &= ~(0x7 << EXIS0_BIT_LSB_IDX);
+    SCU_EICR3.U |= (0x3 << EXIS0_BIT_LSB_IDX); //REQ12 ENABLE
+
+    SCU_EICR3.U |= 0x1 << FEN0_BIT_LSB_IDX;
+    SCU_EICR3.U |= 0x1 << REN0_BIT_LSB_IDX;
+
+    SCU_EICR3.U |= 0x1 << EIEN0_BIT_LSB_IDX;
+
+    SCU_EICR3.U &= ~(0x7 << INP0_BIT_LSB_IDX);
+    SCU_EICR3.U |= 0x1 << INP0_BIT_LSB_IDX; // OGU1
+//
+    SCU_IGCR0.U &= ~(0x3 << IGP1_BIT_LSB_IDX);
+    SCU_IGCR0.U |= (0x1 << IGP1_BIT_LSB_IDX);
+
+    SRC_SCU_SCU_ERU1.U &= ~(0xFF << SRPN_BIT_LSB_IDX);
+    SRC_SCU_SCU_ERU1.U |= 0x09 <<SRPN_BIT_LSB_IDX;
+
+    SRC_SCU_SCU_ERU1.U &= ~(0x3 << TOS_BIT_LSB_IDX);
+
+    SRC_SCU_SCU_ERU1.U |= 0x1 << SRE_BIT_LSB_IDX ;
+//
+}
+
+void initERU03(void) {
     SCU_EICR1.U &= ~(0x7 << EXIS1_BIT_LSB_IDX);
     SCU_EICR1.U |= (0x2 << EXIS1_BIT_LSB_IDX);
 
     SCU_EICR1.U |= 0x1 << FEN1_BIT_LSB_IDX;
-    SCU_EICR1.U |= 0x1 << REN1_BIT_LSB_IDX;
+//    SCU_EICR1.U |= 0x1 << REN1_BIT_LSB_IDX;
 
     SCU_EICR1.U |= 0x1 << EIEN1_BIT_LSB_IDX;
 
     SCU_EICR1.U &= ~(0x7 << INP1_BIT_LSB_IDX);
-    SCU_EICR1.U |= 0X1 << INP1_BIT_LSB_IDX;
+    SCU_EICR1.U |= 0X2 << INP1_BIT_LSB_IDX;
 
-    SCU_IGCR0.U &= ~(0x3 << IGP1_BIT_LSB_IDX);
-    SCU_IGCR0.U |= 0x1 << IGP1_BIT_LSB_IDX;
+    SCU_IGCR1.U &= ~(0x3 << IGP0_BIT_LSB_IDX);
+    SCU_IGCR1.U |= 0x1 << IGP0_BIT_LSB_IDX;
 
-    SRC_SCU_SCU_ERU1.U &= ~(0xFF << SRPN_BIT_LSB_IDX);
-    SRC_SCU_SCU_ERU1.U |= (0x0C << SRPN_BIT_LSB_IDX);
+    SRC_SCU_SCU_ERU2.U &= ~(0xFF << SRPN_BIT_LSB_IDX);
+    SRC_SCU_SCU_ERU2.U |= (0x07 << SRPN_BIT_LSB_IDX);
 
-    SRC_SCU_SCU_ERU1.U &= ~(0x03 << TOS_BIT_LSB_IDX);
-    SRC_SCU_SCU_ERU1.U |= 0x1 << SRE_BIT_LSB_IDX;
+    SRC_SCU_SCU_ERU2.U &= ~(0x03 << TOS_BIT_LSB_IDX);
+    SRC_SCU_SCU_ERU2.U |= 0x1 << SRE_BIT_LSB_IDX;
 }
