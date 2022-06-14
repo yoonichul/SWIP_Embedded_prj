@@ -24,23 +24,9 @@
  * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
  * IN THE SOFTWARE.
  *********************************************************************************************************************/
-//#include "Ifx_Types.h"
-//#include "IfxCpu.h"
-//#include "IfxScuWdt.h"
-////#include "adc.h"
-//#include "button.h"
-//#include "interrupt.h"
-//#include "led.h"
-//#include "timer.h"
-//#include "ASCLIN_Shell_UART.h"
-//#include "light_sensor.h"
-//#include "pwm.h"
-//#include "register_bit_index.h"
-//#include "ultrasonic.h"
 #include "main_controller.h"
 
-//static unsigned int adc_result = 0;
-//unsigned int button_status = BUTTON_RELEASED; // 1 :  released , 0: pushed
+
 extern unsigned int left_us_range;
 extern unsigned int right_us_range;
 extern unsigned char scenario_button;
@@ -113,37 +99,6 @@ int core0_main(void) {
     controller_init();
     while (1) {
         doWork();
-//        if(left_us_range == 100)  P02_OUT.U |= 0x1 << P7_BIT_LSB_IDX;
-//        if( (P02_IN.U & (0x1<<P0_BIT_LSB_IDX)) == 0)
-//        {
-//            P02_OUT.U |= 0x1 << P7_BIT_LSB_IDX;    // LED RED D9 (RGB)
-//            P10_OUT.U |= (0x1 << P5_BIT_LSB_IDX); // LED GREEN D10 (RGB)
-//            P10_OUT.U |= (0x1 << P3_BIT_LSB_IDX); // LED BLUE D11 (RGB)
-//        }
-//        for(unsigned int i = 0; i < 10000000; i++ );
-//        right_UltraSonic_trigger();
-//        while(get_right_range_valid_flag() == 0);
-//        if(right_us_range > 10 )
-//        {
-//            P02_OUT.U |= 0x1 << P7_BIT_LSB_IDX;
-//        }
-//        else
-//        {
-//            P02_OUT.U &= ~(0x1 << P7_BIT_LSB_IDX);
-//
-//        }
-//        left_UltraSonic_trigger();
-//        while(get_left_range_valid_flag() == 0);
-//        if(left_us_range > 10 )
-//        {
-//            P10_OUT.U |= (0x1 << P5_BIT_LSB_IDX); // LED GREEN D10 (RGB)
-//        }
-//        else
-//        {
-//            P10_OUT.U &= ~(0x1 << P5_BIT_LSB_IDX);
-//
-//        }
-
 //        runShellInterface();
 //        Print_UART_INT(right_us_range);
     }
