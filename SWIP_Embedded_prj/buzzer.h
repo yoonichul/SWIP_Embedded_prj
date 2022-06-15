@@ -11,11 +11,10 @@
 
 
 void initBuzzer(void);
-void BuzzerLong(void);
-void BuzzerShort(void);
+void BuzzerLong(unsigned int *buzzer_cnt);
+void BuzzerShort(unsigned int *buzzer_cnt);
 void BuzzerOff(void);
 void BuzzerOn(void);
-void BUZZER_FUNCTION(unsigned int bp);
 
 
 #endif /* BUZZER_H_ */

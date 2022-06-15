@@ -77,23 +77,21 @@ void BCA_SCENE_func(void)
     for(unsigned int i = 0; i < 10000000; i++ );
       right_UltraSonic_trigger();
       while(get_right_range_valid_flag() == 0);
-      if(right_us_range >= 0 && right_us_range <= 10 )
+      if(right_us_range >= 0 && right_us_range <= 20 )
       {
           BLUE_change_duty_ratio(12500);
-//          BuzzerOn();
-//          for(int i = 0; i< 3000000; i++);
-//          BuzzerOff();
+          BuzzerOn();
+          for(int i = 0; i< 3000000; i++);
+          BuzzerOff();
       }
-      else if(right_us_range > 10 && right_us_range <= 30 )
+      else if(right_us_range > 20 && right_us_range <= 40 )
       {
           BLUE_change_duty_ratio(6500);
-//          BuzzerOn();
-//          for(int i = 0; i< 7000000; i++);
-//          BuzzerOff();
-//          BuzzerLong();
-//        BUZZER_FUNCTION
+          BuzzerOn();
+          for(int i = 0; i< 7000000; i++);
+          BuzzerOff();
       }
-      else if(right_us_range > 30 && right_us_range <= 60 )
+      else if(right_us_range > 40 && right_us_range <= 60 )
       {
           BLUE_change_duty_ratio(3000);
       }
@@ -106,14 +104,16 @@ void BCA_SCENE_func(void)
       if(left_us_range >= 0 && left_us_range <= 10 )
       {
           RED_change_duty_ratio(12500);
-//          BuzzerShort();
-          //        BUZZER_FUNCTION
+          BuzzerOn();
+          for(int i = 0; i< 3000000; i++);
+          BuzzerOff();
       }
       else if(left_us_range > 10 && left_us_range <= 30 )
       {
           RED_change_duty_ratio(6500);
-//          BuzzerLong();
-          //        BUZZER_FUNCTION
+          BuzzerOn();
+          for(int i = 0; i< 7000000; i++);
+          BuzzerOff();
       }
       else if(left_us_range > 30 && left_us_range <= 60 )
       {
@@ -139,8 +139,9 @@ void SCC_SCENE_func(void)
          BLUE_change_duty_ratio(1);
          if(left_us_range <= 20)
          {
-//             BuzzerShort();
-             //        BUZZER_FUNCTION
+             BuzzerOn();
+             for(int i = 0; i< 3000000; i++);
+             BuzzerOff();
          }
      }
      else
