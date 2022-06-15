@@ -20,6 +20,7 @@
 #include "pwm.h"
 #include "register_bit_index.h"
 #include "ultrasonic.h"
+#include "buzzer.h"
 void controller_init(void);
 void doWork(void);
 

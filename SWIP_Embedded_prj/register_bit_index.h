@@ -85,24 +85,31 @@
 #define REQCHNR_BIT_LSB_IDX 0
 // GTM register
 #define FXCLK_SEL_BIT_LSB_IDX   0
-#define EX_FXCLK_BIT_LSB_IDX    22
+#define EN_FXCLK_BIT_LSB_IDX    22
 #define SEL7_BIT_LSB_IDX        14
 #define SEL8_BIT_LSB_IDX        16
 // TOM0_TGC0_GLB_CTRL register
 #define UPEN_CTRL1_BIT_LSB_IDX  18
 #define UPEN_CTRL2_BIT_LSB_IDX  20
+#define UPEN_CTRL11_BIT_LSB_IDX 22
+
 #define HOST_TRIG_BIT_LSB_IDX   0
 // TOM0_TGC0_ENDIS_CTRL register
 #define ENDIS_CTRL1_BIT_LSB_IDX 2
 #define ENDIS_CTRL2_BIT_LSB_IDX 4
+#define ENDIS_CTRL11_BIT_LSB_IDX 6
 // TOM0_TGC0_OUTEN_CTRL register
 #define OUTEN_CTRL1_BIT_LSB_IDX 2
 #define OUTEN_CTRL2_BIT_LSB_IDX 4
+#define OUTEN_CTRL11_BIT_LSB_IDX 6
 // TOM0_CH1_CTRL register
 #define SL_BIT_LSB_IDX          11
 #define CLK_SRC_SR_BIT_LSB_IDX  12
-#define OSB_BIT_LSB_IDX         26
-#define TRIG_OUT_BIT_LSB_IDX    24
+#define OSM_BIT_LSB_IDX         26
+#define TRIGOUT_BIT_LSB_IDX    24
+
+
+
 
 
 #endif /* REGISTER_BIT_INDEX_H_ */

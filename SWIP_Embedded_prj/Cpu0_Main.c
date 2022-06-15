@@ -30,6 +30,7 @@
 extern unsigned int left_us_range;
 extern unsigned int right_us_range;
 extern unsigned char scenario_button;
+extern unsigned int buzzer_cnt;
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 __interrupt(0x0B) __vector_table(0)
  void CCU60_T12_ISR(void)
@@ -51,6 +52,7 @@ __interrupt(0x0A) __vector_table(0)
         CCU61_T12_stop();
         left_us_range = calc_left_US_distance();
         set_left_range_valid_flag();
+        buzzer_cnt++;
         CCU61_T12_reset();
     }
 
@@ -74,7 +76,7 @@ void ERU2_ISR(void)
 __interrupt(0x07) __vector_table(0)
 void ERU3_ISR(void)
 {
-    scenario_button+=1; // LED GREEN D10 (RGB)
+    scenario_button+=1;
     if(!scenario_button && scenario_button % 4 == 0)
     {
          scenario_button = 0;
@@ -98,6 +100,11 @@ int core0_main(void) {
 
     controller_init();
     while (1) {
+//        BuzzerOn();
+//        for(int i = 0; i< 10000000; i++);
+//        BuzzerOff();
+//        for(int i = 0; i< 10000000; i++);
+
         doWork();
 //        runShellInterface();
 //        Print_UART_INT(right_us_range);

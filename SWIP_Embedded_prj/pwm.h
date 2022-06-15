@@ -14,5 +14,7 @@ void initGTM(void);
 void PWM_trigger(void);
 void RED_change_duty_ratio(unsigned int duty);
 void BLUE_change_duty_ratio(unsigned int duty);
+void initGTM_Buzzer(void);
+void Buzzer_change_duty_ratio(unsigned int duty);
 
 #endif /* PWM_H_ */

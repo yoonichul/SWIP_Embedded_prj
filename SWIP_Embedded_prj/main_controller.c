@@ -23,9 +23,11 @@ void controller_init(void)
     initCCU61();
     initButton();
     initRGBLED();
+    initBuzzer();
     init_left_UltraSonic();
     init_right_UltraSonic();
     initGTM();
+    initGTM_Buzzer();
     init_VADC_light_sensor();
     initLED_PWM();
     PWM_trigger();
@@ -78,11 +80,17 @@ void BCA_SCENE_func(void)
       if(right_us_range >= 0 && right_us_range <= 10 )
       {
           BLUE_change_duty_ratio(12500);
-//        BUZZER_FUNCTION
+//          BuzzerOn();
+//          for(int i = 0; i< 3000000; i++);
+//          BuzzerOff();
       }
       else if(right_us_range > 10 && right_us_range <= 30 )
       {
           BLUE_change_duty_ratio(6500);
+//          BuzzerOn();
+//          for(int i = 0; i< 7000000; i++);
+//          BuzzerOff();
+//          BuzzerLong();
 //        BUZZER_FUNCTION
       }
       else if(right_us_range > 30 && right_us_range <= 60 )
@@ -98,11 +106,13 @@ void BCA_SCENE_func(void)
       if(left_us_range >= 0 && left_us_range <= 10 )
       {
           RED_change_duty_ratio(12500);
+//          BuzzerShort();
           //        BUZZER_FUNCTION
       }
       else if(left_us_range > 10 && left_us_range <= 30 )
       {
           RED_change_duty_ratio(6500);
+//          BuzzerLong();
           //        BUZZER_FUNCTION
       }
       else if(left_us_range > 30 && left_us_range <= 60 )
@@ -129,7 +139,8 @@ void SCC_SCENE_func(void)
          BLUE_change_duty_ratio(1);
          if(left_us_range <= 20)
          {
-         //        BUZZER_FUNCTION
+//             BuzzerShort();
+             //        BUZZER_FUNCTION
          }
      }
      else

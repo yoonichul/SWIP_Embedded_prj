@@ -9,47 +9,9 @@
 #include "IfxScuWdt.h"
 #include "Ifx_Types.h"
 #include "IfxGtm_reg.h"
+#include "register_bit_index.h"
 #include "pwm.h"
-// SCU register
-#define LCK_BIT_LSB_IDX             1
-#define ENDINIT_BIT_LSB_IDX         0
-#define EXIS0_BIT_LSB_IDX           4
-#define FEN0_BIT_LSB_IDX            8
-#define EIEN0_BIT_LSB_IDX           11
-#define INP0_BIT_LSB_IDX            12
-#define IGP0_BIT_LSB_IDX            14
-// SRC register
-#define SRPN_BIT_LSB_IDX            0
-#define TOS_BIT_LSB_IDX             11
-#define SRE_BIT_LSB_IDX             10
 
-#define DISR_BIT_LSB_IDX            0
-#define DISS_BIT_LSB_IDX            1
-
-
-// GTM register
-#define FXCLK_SEL_BIT_LSB_IDX       0
-#define EX_FXCLK_BIT_LSB_IDX        22
-#define SEL7_BIT_LSB_IDX            14
-#define SEL8_BIT_LSB_IDX            16
-
-// TOM0_TGC0_GLB_CTRL register
-#define UPEN_CTRL1_BIT_LSB_IDX      18
-#define UPEN_CTRL2_BIT_LSB_IDX      20
-#define HOST_TRIG_BIT_LSB_IDX       0
-// TOM0_TGC0_ENDIS_CTRL register
-#define ENDIS_CTRL1_BIT_LSB_IDX     2
-#define ENDIS_CTRL2_BIT_LSB_IDX     4
-
-// TOM0_TGC0_OUTEN_CTRL register
-#define OUTEN_CTRL1_BIT_LSB_IDX     2
-#define OUTEN_CTRL2_BIT_LSB_IDX     4
-
-// TOM0_CH1_CTRL register
-#define SL_BIT_LSB_IDX              11
-#define CLK_SRC_SR_BIT_LSB_IDX      12
-#define OSB_BIT_LSB_IDX             26
-#define TRIG_OUT_BIT_LSB_IDX        24
 void initGTM(void)
 {
        // Password Access to unlock SCU_WDTSCON0
@@ -73,7 +35,7 @@ void initGTM(void)
 
        // GTM clock configuration
        GTM_CMU_FXCLK_CTRL.U &= ~(0xF << FXCLK_SEL_BIT_LSB_IDX);
-       GTM_CMU_CLK_EN.U |= 0x2 << EX_FXCLK_BIT_LSB_IDX;
+       GTM_CMU_CLK_EN.U |= 0x2 << EN_FXCLK_BIT_LSB_IDX;
 
        GTM_TOM0_TGC0_GLB_CTRL.U |= 0x2 << UPEN_CTRL1_BIT_LSB_IDX; // TOM channel 1 update enable
        GTM_TOM0_TGC0_GLB_CTRL.U |= 0x2 << UPEN_CTRL2_BIT_LSB_IDX; // TOM channel 2 update enable
@@ -86,13 +48,13 @@ void initGTM(void)
 
        GTM_TOM0_CH1_CTRL.U |= 0x1 << SL_BIT_LSB_IDX;
        GTM_TOM0_CH1_CTRL.U |= 0x1 << CLK_SRC_SR_BIT_LSB_IDX;
-       GTM_TOM0_CH1_CTRL.U &= ~(0x1 << OSB_BIT_LSB_IDX);
-       GTM_TOM0_CH1_CTRL.U &= ~(0x1 << TRIG_OUT_BIT_LSB_IDX);
+       GTM_TOM0_CH1_CTRL.U &= ~(0x1 << OSM_BIT_LSB_IDX);
+       GTM_TOM0_CH1_CTRL.U &= ~(0x1 << TRIGOUT_BIT_LSB_IDX);
 
        GTM_TOM0_CH2_CTRL.U |= 0x1 << SL_BIT_LSB_IDX;
        GTM_TOM0_CH2_CTRL.U |= 0x1 << CLK_SRC_SR_BIT_LSB_IDX;
-       GTM_TOM0_CH2_CTRL.U &= ~(0x1 << OSB_BIT_LSB_IDX);
-       GTM_TOM0_CH2_CTRL.U &= ~(0x1 << TRIG_OUT_BIT_LSB_IDX);
+       GTM_TOM0_CH2_CTRL.U &= ~(0x1 << OSM_BIT_LSB_IDX);
+       GTM_TOM0_CH2_CTRL.U &= ~(0x1 << TRIGOUT_BIT_LSB_IDX);
 
        GTM_TOM0_CH1_SR0.U = 12500 - 1;                           // PWM freq. = 6250kHz  / 12500 = 500Hz
        GTM_TOM0_CH1_SR1.U = 1250 - 1;
@@ -103,11 +65,51 @@ void initGTM(void)
 
 }
 
+// Buzzer GTM init
+void initGTM_Buzzer(void)
+{
+    SCU_WDTCPU0_CON0.U= ((SCU_WDTCPU0_CON0.U ^ 0xFC) & ~(1 << LCK_BIT_LSB_IDX)) | (1 <<ENDINIT_BIT_LSB_IDX );
+    while((SCU_WDTCPU0_CON0.U & (1 << LCK_BIT_LSB_IDX)) != 0);
+
+    SCU_WDTCPU0_CON0.U= ((SCU_WDTCPU0_CON0.U ^ 0xFC) | (1 << LCK_BIT_LSB_IDX)) & ~(1 <<ENDINIT_BIT_LSB_IDX );
+    while((SCU_WDTCPU0_CON0.U & (1 << LCK_BIT_LSB_IDX)) == 0);
+
+    GTM_CLC.U &= ~(1<<DISR_BIT_LSB_IDX);  //ENABLE GTM
+
+    SCU_WDTCPU0_CON0.U= ((SCU_WDTCPU0_CON0.U ^ 0xFC) & ~(1 << LCK_BIT_LSB_IDX)) | (1 <<ENDINIT_BIT_LSB_IDX );
+    while((SCU_WDTCPU0_CON0.U & (1 << LCK_BIT_LSB_IDX)) != 0);
+
+    SCU_WDTCPU0_CON0.U= ((SCU_WDTCPU0_CON0.U ^ 0xFC) | (1 << LCK_BIT_LSB_IDX)) | (1 <<ENDINIT_BIT_LSB_IDX );
+    while((SCU_WDTCPU0_CON0.U & (1 << LCK_BIT_LSB_IDX)) == 0);
+
+    while((GTM_CLC.U & (1<<DISS_BIT_LSB_IDX)) != 0);
+
+    GTM_CMU_FXCLK_CTRL.U &= ~(0xF << FXCLK_SEL_BIT_LSB_IDX);
+    GTM_CMU_CLK_EN.U |= 0x2 << EN_FXCLK_BIT_LSB_IDX;
+
+    GTM_TOM0_TGC1_GLB_CTRL.U |= 0x2 << UPEN_CTRL11_BIT_LSB_IDX; // 11 channel
+    GTM_TOM0_TGC1_ENDIS_CTRL.U |= 0x2 << ENDIS_CTRL11_BIT_LSB_IDX;
+    GTM_TOM0_TGC1_OUTEN_CTRL.U |= 0x2 << OUTEN_CTRL11_BIT_LSB_IDX;
+
+
+    GTM_TOM0_CH11_CTRL.U |= 0x1 << SL_BIT_LSB_IDX;
+    GTM_TOM0_CH11_CTRL.U |= 0x1 << CLK_SRC_SR_BIT_LSB_IDX;
+    GTM_TOM0_CH11_CTRL.U &= ~(0x1 << OSM_BIT_LSB_IDX);
+    GTM_TOM0_CH11_CTRL.U &= ~(0x1 << TRIGOUT_BIT_LSB_IDX);
+
+    GTM_TOUTSEL0.U &= ~(0x3 << 6);
+
+    GTM_TOM0_CH11_SR0.U = 12000-1;
+
+}
+
+
 
 
 void PWM_trigger(void)
 {
-    GTM_TOM0_TGC0_GLB_CTRL.U |= 0x1 << HOST_TRIG_BIT_LSB_IDX; // PWM trigger update request signal
+    GTM_TOM0_TGC0_GLB_CTRL.U |= 0x1 << HOST_TRIG_BIT_LSB_IDX;  // PWM trigger update request signal
+    GTM_TOM0_TGC1_GLB_CTRL.U |= 0x1 << HOST_TRIG_BIT_LSB_IDX;  // Buzzer PWM trigger update request signal
 }
 
 
@@ -122,3 +124,7 @@ void BLUE_change_duty_ratio(unsigned int duty)
 
 }
 
+void Buzzer_change_duty_ratio(unsigned int duty)
+{
+    GTM_TOM0_CH11_SR1.U = duty - 1;
+}
